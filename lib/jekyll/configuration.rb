@@ -11,6 +11,7 @@ module Jekyll
       'plugins'       => '_plugins',
       'layouts'       => '_layouts',
       'keep_files'    => ['.git','.svn'],
+      'gems'          => [],
 
       'timezone'      => nil,           # use the local timezone
 
@@ -23,7 +24,7 @@ module Jekyll
       'pygments'      => true,
 
       'relative_permalinks' => true,     # backwards-compatibility with < 1.0
-                                         # will be set to false once 1.1 hits
+                                         # will be set to false once 1.5 hits
 
       'markdown'      => 'maruku',
       'permalink'     => 'date',
